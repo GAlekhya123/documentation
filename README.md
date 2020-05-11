@@ -15,7 +15,7 @@
 
 <p>To Configure the template system we have to provide some entries in settings.py file.</p>
 
-<img src="Templates.png"/>
+<img src="Templates.PNG"/>
 
 
 
