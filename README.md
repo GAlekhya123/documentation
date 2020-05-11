@@ -15,11 +15,14 @@
 
 <p>To Configure the template system we have to provide some entries in settings.py file.</p>
 
-<img src="Templates.PNG"/>
+<img src="Templates.PNG" alt="Templates"
+     style="float: left; margin-right: 10px;"/>
 
 <p>and also some installed apps and created app must be placed in Installedapps</p>
 
-<img src="Installedapps.PNG"/>
+<img src="Installedapps.PNG" alt="Templates"
+     style="float: left; margin-right: 10px;"/>
+
 
 
 
