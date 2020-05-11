@@ -20,8 +20,7 @@
 
 <p>and also some installed apps and created app must be placed in Installedapps</p>
 
-<img src="Installedapps.PNG" alt="Templates"
-     style="width:1000px;height:50px;"/>
+<img src="Installedapps.PNG" alt="Templates" width:"1000" />
 
 
 
