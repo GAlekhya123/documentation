@@ -11,6 +11,12 @@
 <li>Django template engine is used to separate the design from the python code and allows us to build dynamic web pages.</li>
 </ul>
 
+### Django Template Configuration
+
+<p>To Configure the template system we have to provide some entries in settings.py file.</p>
+
+<img src="Installedapps..PNG" alt="installedapp image"/>
+
 
 
 
