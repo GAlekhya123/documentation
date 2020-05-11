@@ -26,11 +26,11 @@
 
 <p> First create a Folder <b>Templates</b> inside the project app i.e firstapp</p> 
 
-<img src="templatefoldercreation.PNG" alt="Templates" />
+<img src="templatefoldercreation.PNG" alt="Templates" width="600" />
 
 <p>Next create a template <b>index.html</b> inside <b>Tempaltes</b> Folder.</p>
 
-<img src="creating_template.PNG" alt="Templates" />
+<img src="creating_template.PNG" alt="Templates" width="600" />
 
 
 
