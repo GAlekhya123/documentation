@@ -16,10 +16,21 @@
 <p>To Configure the template system we have to provide some entries in settings.py file.</p>
 <img src="Templates.PNG" alt="Templates"
      style="width:50px;height:50px;"/>
+<p>Here, we mentioned that our template directory name is templates. By default, DjangoTemplates looks for a templates subdirectory in each of the INSTALLED_APPS.</p>
 
-<p>and also some installed apps and created app must be placed in Installedapps</p>
+<p>we have to install some apps before the starting the project and created app name  must be placed in Installed_Apps.</p>
 
 <img src="Installedapps.PNG" alt="Templates" width="600"  />
+
+### Django Templates Creation Procedure
+
+<p> First create a Folder <b>Templates</b> inside the project app i.e firstapp</p> 
+
+<img src="tempaltefoldercreation.PNG" alt="Templates" />
+
+<p>Next create a template <b>index.html</b> inside <b>Tempaltes</b> Folder.</p>
+
+<img src="creating_tempalte.PNG" alt="Templates" />
 
 
 
