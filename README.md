@@ -139,9 +139,10 @@ Some filters take an argument:
 ```django
 {# this won't be rendered #}
 ```
-<p>A {% comment %} tag provides multi-line comments.</p>
-
-<p>Ignores everything between {% comment %} and {% endcomment %}. An optional note may be inserted between these tags.</p>
+<ul>
+<li>A {% comment %} tag provides multi-line comments.</li>
+<li>Ignores everything between {% comment %} and {% endcomment %}. An optional note may be inserted between these tags.</li>
+</ul>
 
 
 
