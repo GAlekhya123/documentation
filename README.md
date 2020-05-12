@@ -24,7 +24,7 @@
 
 ### Django Templates Creation Procedure
 
-<p> First create a Folder <b>Templates</b> inside the project app i.e firstapp</p> 
+<p> First create a Folder <b>Templates</b> inside the project app i.e firstapp.</p> 
 
 <img src="Images/templatefoldercreation.PNG" alt="Templates" width="600" />
 
@@ -32,29 +32,29 @@
 
 <img src="Images/creating_template.PNG" alt="Templates" width="600" />
 
-<p>After creating a template we have to write a code in index.html</p>
+<p>After creating a template we have to write a code in index.html.</p>
 
-<p>Tempalte <b>index.html</b> contains the code</p>
+<p>Tempalte <b>index.html</b> contains the code.</p>
 
 <img src="Images/tempatecode.PNG" alt="Templates" width="600" />
 
-<p>To Load or render our template need a view and url mapped to that view.Let's begin creating urls.py and views.py</p>
+<p>To Load or render our template need a view and url mapped to that view.Let's begin creating urls.py and views.py.</p>
 
 <p>Mapping <b>index.html</b> to <b>urls.py</b><p> 
 
 <img src="Images/urlimage.PNG" alt="Templates" width="600" />
 
-<p> From <b>urls.py</b> mapping to <b>views.py</b></p>
+<p> From <b>urls.py</b> mapping to <b>views.py</b>.</p>
 
 <img src="Images/viewsimage.PNG" alt="Templates" width="600" />
 
-<p>After mapping all these files we have to run the server,To run server we have to open our project directory and open command promt in that we have to use the command i.e <b>python manage.py runserver</b></p>
+<p>After mapping all these files we have to run the server,To run server we have to open our project directory and open command promt in that we have to use the command i.e <b>python manage.py runserver.</b></p>
 
 <p>The output will appears like this</p>
 
 <img src="Images/output.PNG" alt="Templates" width="600" />
 
-<p> In that ouput we can see that at top of the page we have the title i.e <b>My Project</b> and also body part which we have written in the <b>index.html</b> page.
+<p> In that ouput we can see that at top of the page we have the title i.e <b>My Project</b> and also body part which we have written in the <b>index.html</b> page.</p>
      
 
 
