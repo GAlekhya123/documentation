@@ -54,6 +54,9 @@
 
 <img src="Images/output.PNG" alt="Templates" width="600" />
 
+<p> In that ouput we can see that at top of the page we have the title i.e <b>My Project</b> and also body part which we have written in the <b>index.html</b> page.
+     
+
 
 
 
