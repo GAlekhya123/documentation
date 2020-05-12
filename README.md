@@ -48,7 +48,11 @@
 
 <img src="Images/viewsimage.PNG" alt="Templates" width="600" />
 
-<p>After mapping all these files we have to run the server,To run server we have to open our project directory and open command promt in that we have the command i.e <b>python manage.py runserver</b></p>
+<p>After mapping all these files we have to run the server,To run server we have to open our project directory and open command promt in that we have to use the command i.e <b>python manage.py runserver</b></p>
+
+<p>The output will appears like this</p>
+
+<img src="Images/output.PNG" alt="Templates" width="600" />
 
 
 
