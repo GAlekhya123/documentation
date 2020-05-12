@@ -91,6 +91,8 @@ My name is Alexa.
 <ul>
 <li>After completing these process run the server then output will appear like this.</li>
 </ul>
+
+
 <img src="Images/output1.PNG" alt="Templates" width="600" />
 
 #### Tags
@@ -108,6 +110,7 @@ My name is Alexa.
 
 ```django
 {% csrf_token %}
+```
 
 
 
