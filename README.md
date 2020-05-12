@@ -73,6 +73,12 @@
 ``` django
 {{ variable_name }}
 ```
+##### Example
+
+```django
+My name is {{ name }}.
+My name is Alexa.
+
 
 
 
