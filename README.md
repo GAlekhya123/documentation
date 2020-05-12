@@ -28,6 +28,11 @@
 
 <img src="templatefoldercreation.PNG" alt="Templates" width="600" />
 
+<p>Next create a template <b>index.html</b> inside <b>Tempaltes</b> Folder.</p>
+
+<img src="creating_template.PNG" alt="Templates" width="600" />
+
+
 
 
 
