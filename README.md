@@ -56,6 +56,12 @@
 
 <p> In that ouput we can see that at top of the page we have the title i.e <b>My Project</b> and also body part which we have written in the <b>index.html</b> page.</p>
      
+### Django Template Language(DTL)
+
+<p>This is one of most important facility provided by Django Templates. A Django template is a text document or a Python string marked-up using the Django template language.Django template uses its own syntax to deal with variable, tags, expressions etc. A template is rendered with a context which is used to get value at a web page. See the examples.</p>
+
+<p>Main characterisitcs of django Template language are Variables, Tags, Filters and Comments.</p>
+<p>similarly, we can used various other conditions such as if, else, if-else, empty, etc.</p>
 
 
 
