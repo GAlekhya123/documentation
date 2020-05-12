@@ -40,6 +40,16 @@
 
 <p>To Load or render our template need a view and url mapped to that view.Let's begin creating urls.py and views.py</p>
 
+<p>Mapping <b>index.html</b> to <b>urls.py</b><p> 
+
+<img src="Images/urlimage.PNG" alt="Templates" width="600" />
+
+<p> From <b>urls.py</b> mapping to <b>views.py</b></p>
+
+<img src="Images/viewsimage.PNG" alt="Templates" width="600" />
+     
+     
+
 
 
 
