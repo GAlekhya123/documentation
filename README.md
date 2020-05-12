@@ -80,17 +80,17 @@ My name is {{ name }}.
 My name is Alexa.
 ```
 ### Django Variable Example
-
-<p><b>views.py</b> code</p>
-
+<ul>
+<li><b>views.py</b> code</li>
+</ul>
 <img src="Images/viewshttp.PNG" alt="Templates" width="600" />
-
-<p><b>index.html</b> code</p>
-
+<ul>
+<li><b>index.html</b> code</li>
+</ul>
 <img src="Images/templatecode.PNG" alt="Templates" width="600" />
-
-<p>After completing these process run server the output will appear like this.</p>
-
+<ul>
+<li>After completing these process run server the output will appear like this.</li>
+</ul>
 <img src="Images/output1.PNG" alt="Templates" width="600" />
 
 
