@@ -47,6 +47,12 @@
 <p> From <b>urls.py</b> mapping to <b>views.py</b></p>
 
 <img src="Images/viewsimage.PNG" alt="Templates" width="600" />
+
+<p>After mapping all these files we have to run the server,To run server we have to open our project directory and open command promt in that we have the command i.e <b>python manage.py runserver</b></p>
+
+
+
+
      
      
 
