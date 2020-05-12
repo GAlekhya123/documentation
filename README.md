@@ -89,9 +89,26 @@ My name is Alexa.
 </ul>
 <img src="Images/templatecode.PNG" alt="Templates" width="600" />
 <ul>
-<li>After completing these process run server the output will appear like this.</li>
+<li>After completing these process run the server then output will appear like this.</li>
 </ul>
 <img src="Images/output1.PNG" alt="Templates" width="600" />
+
+#### Tags
+
+<p>Tags provide arbitrary logic in the rendering process.For example, a tag can output content, serve as a control structure e.g. an "if" statement or a "for" loop, grab content from a database etc.</p>
+
+<p>Tags are surrounded by {% %} braces.</p>
+
+##### Syntax
+
+```django
+{% tag_name %}
+```
+##### Example 
+
+```django
+{% csrf_token %}
+
 
 
 
