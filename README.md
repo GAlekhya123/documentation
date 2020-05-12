@@ -64,6 +64,18 @@
 <li>similarly, we can used various other conditions such as if, else, if-else, empty, etc.</li>
 </ul>
 
+#### Variables
+
+<p>Variables associated with a context can be accessed by {{}},It is a dict-like object mapping keys to values. The context object we sent from the view can be accesses in template using variables of Django Template.</p>
+
+##### syntax
+
+``` django
+{{ variable_name }}
+```
+
+
+
 
 
 
