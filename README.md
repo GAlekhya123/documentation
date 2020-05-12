@@ -111,30 +111,40 @@ My name is Alexa.
 ```django
 {% csrf_token %}
 ```
+#### Filters
+
+<p>Filters transform the values of variables and tag arguments.</p>
+
+<p>They look like this:</p>
+
+```django
+{{ APSSDC|title }}
+```
+<p>With a context of <b>{'APSSDC': 'AndhraPradesh State Skill Development Corporation'}</b>, this template renders to:</p>
+
+```django
+AndhraPradesh State Skill Development Corporation
+```
+
+Some filters take an argument:
+
+```django
+{{ my_date|date:"Y-m-d" }}
+```
+
+#### Comments
+
+<p>Comments look like this:</p>
+
+```django
+{# this won't be rendered #}
+```
+<p>A {% comment %} tag provides multi-line comments.</p>
+
+<p>Ignores everything between {% comment %} and {% endcomment %}. An optional note may be inserted between these tags.</p>
 
 
-| Tables         Are            Cool    |
-| -------------------------------------:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
-<table style="width:100%">
-<tr>
-<th>Firstname</th>
-
-</tr>
-<tr>
-<td>Jill</td>
-<td>Smith</td>
-<td>50</td>
-</tr>
-<tr>
-<td>Eve</td>
-<td>Jackson</td>
-<td>94</td>
-</tr>
-</table>
 
 
 
