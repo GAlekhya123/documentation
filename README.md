@@ -38,6 +38,9 @@
 
 <img src="Images/tempatecode.PNG" alt="Templates" width="600" />
 
+<p>To Load or render our template need a view and url mapped to that view.Let's begin creating urls.py and views.py</p>
+
+
 
 
 
