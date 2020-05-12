@@ -32,6 +32,14 @@
 
 <img src="Images/creating_template.PNG" alt="Templates" width="600" />
 
+<p>After creating a template we have to write a code in index.html</p>
+
+<p>Tempalte <b>index.html</b> contains the code</p>
+
+<img src="Images/tempatecode.PNG" alt="Templates" width="600" />
+
+
+
 
 
 
