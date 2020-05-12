@@ -14,7 +14,7 @@
 ### Django Template Configuration
 
 <p>To Configure the template system we have to provide some entries in settings.py file.</p>
-<img src="Templates.PNG" alt="Templates"
+<img src="images/Templates.PNG" alt="Templates"
      width="600"/>
 <p>Here, we mentioned that our template directory name is templates. By default, DjangoTemplates looks for a templates subdirectory in each of the INSTALLED_APPS.</p>
 
