@@ -6,3 +6,20 @@
 
 <p>Important point is that <i>none of these files can be modified by the server</i>. It means these files are transmitted as it is, without any modification.</p>
 
+### What are Static files?
+
+<i>Static files are those files which can not be processed, generated or modified by the server.</i>
+
+<p>There is a catch here. Images, JavaScript files, etc are types of content or static files. Static files contain all kinds of file types – from .mpeg, .jpeg to .pdf, etc.There is a simple concept of working with static files. When a user requests for a webpage, the server will generate the HTML. Then the server will collect all the corresponding static files related to that page. Lastly, this whole data is served.</p>
+
+<p>You can see that process in this flow-diagram. Also, we can say that static websites are much faster than dynamic websites.</p>
+
+#### Benefits of Static Files
+<ul>
+<li><b>They are static:</b> These files don’t change until the developer replace them with a new one. Thus, the server just fetches them from the disk, taking a minimum amount of time.</li>
+Static files are easier to cache: They don’t change and are not modified by the server. That makes the performance faster.
+Static files are energy efficient: Static files are fetched from the disk when required. They require no processing which saves the processing overhead and website response becomes fast.
+</ul>
+
+
+
