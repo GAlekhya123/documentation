@@ -17,8 +17,8 @@
 #### Benefits of Static Files
 <ul>
 <li><b>They are static:</b> These files don’t change until the developer replace them with a new one. Thus, the server just fetches them from the disk, taking a minimum amount of time.</li>
-Static files are easier to cache: They don’t change and are not modified by the server. That makes the performance faster.
-Static files are energy efficient: Static files are fetched from the disk when required. They require no processing which saves the processing overhead and website response becomes fast.
+<li><b>Static files are easier to cache:</b> They don’t change and are not modified by the server. That makes the performance faster.</li>
+  <li><b>Static files are energy efficient:</b> Static files are fetched from the disk when required. They require no processing which saves the processing overhead and website response becomes fast.</li>
 </ul>
 
 
