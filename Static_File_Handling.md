@@ -1,5 +1,13 @@
 ## Django Static Files Handling
 
+### Why Static Files?
+
+<p>In a web application, apart from business logic and data handling, we also need to handle and manage static resources like CSS, JavaScript, images etc.</p>
+
+<p>It is important to manage these resources so that it does not affect our application performance.</p>
+
+<p>Django deals with it very efficiently and provides a convenient manner to use resources.</p>
+
 <p>Today, websites have become much more interactive than ever. They contain tons of CSS and JavaScript Code to make our experience smoother.</p>
 
 <p>There are lots of graphics involved on websites too. Our Python Tutorials Home Page is the best example. There are outputs and screenshots and these images are important for the blog. So, from this, we can state that there are multiple files on a webpage.</p>
