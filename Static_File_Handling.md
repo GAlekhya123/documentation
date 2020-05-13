@@ -28,5 +28,18 @@
 <li>Include the <b>django.contrib.staticfiles</b> in <b>INSTALLED_APPS</b>.</li>
 </ul>
 <img src="Images/Installedapps.PNG" alt="Templates" width="600"  />
+<ul>
+<li>Define STATIC_URL in settings.py file as given below.</li>
+</ul>
 
+```python
+STATIC_URL = '/static/'  
+```
 
+<ul>
+<li>Load static files in the templates by using the below expression.</li>
+</ul>
+
+```html
+{% load static %}  
+```
