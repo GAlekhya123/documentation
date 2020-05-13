@@ -144,7 +144,7 @@ alert("now your are using java script alert")
 ### Django Loading CSS Example
 
 <ul>
-<li>we have to create Folder or directory inside static Folder i.e <b>css</b>,in that <b>js</b> folder create a file and name it as <b>mystyle.css</b></li>
+<li>we have to create Folder or directory inside static Folder i.e <b>css</b>,in that <b>js</b> folder create a file and name it as <b>mystyle.css</b> folder looks like this.</li>
 </ul>
 
 <img src="Images/cssimage.PNG" alt="cssimage" width="600" />
@@ -159,4 +159,27 @@ color:pink;
 } 
 ```
 
+<ul>
+  <li>To load css file, just add the following line of code in <b>index.html</b> file.</li>
+</ul>
 
+```html
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Styles</title>  
+     {% load static %}  
+    <link href="{% static 'css/mystyle.css' %}" rel="stylesheet">  
+</head>  
+<body>  
+<h2>Welcome to MyProject</h2>  
+</body>  
+</html>  
+```
+
+<ul>
+<li>Run the server by using <b>python manage.py runserver</b> command.Then,output look like this.</li>
+</ul>
+
+<img src="Images/jsoutput.PNG" alt="Templates" width="600" />
