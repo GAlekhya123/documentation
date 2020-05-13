@@ -43,3 +43,9 @@ STATIC_URL = '/static/'
 ```html
 {% load static %}  
 ```
+
+<ul>
+<li>Store all images, JavaScript, CSS files in a static folder of the application. First create a directory static, store the files inside it.</li>
+</ul>
+
+<img src="Images/creatingstaticfolder.PNG" alt="Templates" width="600"  />
