@@ -52,12 +52,14 @@ STATIC_URL = '/static/'
 
 ### Django Image Loading Example
 
-<p>we have to create Folder or directory inside static Folder i.e is <b>images</b>,in that <b>images</b> folder upload some pictures from your local system.</p>
+<ul>
+<li>we have to create Folder or directory inside static Folder i.e is <b>images</b>,in that <b>images</b> folder upload some pictures from your local system.</li>
+</ul>
 
 <img src="Images/imagefolder.PNG" alt="Templates" width="600"  />
 
 <ul>
-  <li><b>index.html</b> code for loading an image<li>
+<li><b>index.html</b> code<li>
 </ul>
 
 ```html
@@ -73,7 +75,68 @@ STATIC_URL = '/static/'
 </body>  
 </html>     
 ```
-<p><b>urls.py</b> code</p>
+<ul>
+<li><b>urls.py</b> code</li>
+</ul>
 
+```python
+from django.contrib import admin
+from django.urls import path
+from firstapp import views
 
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('index/',views.index,name='index'),
+]
+```
+<ul>
+<li><b>views.py</b> code</li>
+</ul>
 
+```python
+def index(request):  
+    return render(request,'firstapp/index.html',{})
+```
+<ul>
+<li>Run the server by using <b>python manage.py runserver</b> command.</li>
+</ul>
+
+<img src="Images/imageoutput.PNG" alt="Templates" width="600"  />
+
+### Django Loading JavaScript
+
+<ul>
+<li>we have to create Folder or directory inside static Folder i.e is <b>js</b>,in that <b>js</b> folder create a file and name it as <b>mystyle.js</b>
+</ul>
+
+<img src="Images/mystyle.PNG" alt="mystyle" width="600"  />
+
+<ul>
+<li><b>mystyle.js</b> code</li>
+</ul>
+
+```javascript
+alert("now your are using java script alert")
+```
+<ul>
+  <li>To load JavaScript file, just add the following line of code in <b>index.html</b> file.</li>
+</ul>
+
+```html
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>JavaScript</title>  
+     {% load static %}  
+    <script src="{% static 'js/mystyle.js' %}" type="text/javascript"></script>  
+</head>  
+<body>  
+</body>  
+</html> 
+```
+<ul>
+<li>Run the server by using <b>python manage.py runserver</b> command.Then,output look like this</li>
+</ul>
+
+<img src="Images/jsoutput.PNG" alt="Templates" width="600"  />
