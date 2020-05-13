@@ -93,5 +93,3 @@ def index(request):
 
 
 
-
-
