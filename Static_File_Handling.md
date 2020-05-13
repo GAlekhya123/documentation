@@ -7,4 +7,4 @@
   is the best example. There are outputs and screenshots and these images are important for the blog. So, from this, we can state that there are multiple files on a webpage.</p>
 
 <p>Important point is that <i>none of these files can be modified by the server</i>. It means these files are transmitted as it is, without any modification.</p>
-![Python Tutorials Home Page](https://data-flair.training/blogs/python-tutorials-home/)
+![Python](https://data-flair.training/blogs/python-tutorials-home/)
