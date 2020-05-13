@@ -28,7 +28,7 @@
 
 <img src="Images/templatefoldercreation.PNG" alt="Templates" width="600" />
 
-<p>Next create a template <b>index.html</b> inside <b>Tempaltes</b> Folder.</p>
+<p> Create a folder inside templates i.e <b>firstapp</b> inside firstapp create <b>index.html</b></p>
 
 <img src="Images/creating_template(1).PNG" alt="Templates" width="600" />
 
