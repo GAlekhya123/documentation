@@ -14,6 +14,8 @@
 
 <p>You can see that process in this flow-diagram. Also, we can say that static websites are much faster than dynamic websites.</p>
 
+<img src="Images/staticex.PNG" alt="Templates" width="600"  />
+
 #### Benefits of Static Files
 <ul>
 <li><b>They are static:</b> These files don’t change until the developer replace them with a new one. Thus, the server just fetches them from the disk, taking a minimum amount of time.</li>
@@ -21,5 +23,10 @@
   <li><b>Static files are energy efficient:</b> Static files are fetched from the disk when required. They require no processing which saves the processing overhead and website response becomes fast.</li>
 </ul>
 
+## Django Static (CSS, JavaScript, images) Configuration
+
+<li>Include the <b>django.contrib.staticfiles</b> in <b>INSTALLED_APPS</b>.</li>
+
+<img src="Images/Installedapps.PNG" alt="Templates" width="600"  />
 
 
