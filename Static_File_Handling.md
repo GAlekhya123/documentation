@@ -139,4 +139,4 @@ alert("now your are using java script alert")
 <li>Run the server by using <b>python manage.py runserver</b> command.Then,output look like this</li>
 </ul>
 
-<img src="Images/jsoutput.PNG" alt="Templates" width="600"  />
+<img src="Images/jsoutput.PNG" alt="Templates" width="600" />
