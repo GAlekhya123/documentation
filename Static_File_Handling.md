@@ -53,13 +53,13 @@ STATIC_URL = '/static/'
 ### Django Image Loading Example
 
 <ul>
-<li>we have to create Folder or directory inside static Folder i.e is <b>images</b>,in that <b>images</b> folder upload some pictures from your local system.</li>
+<li>we have to create Folder or directory inside static Folder i.e <b>images</b>,in that <b>images</b> folder upload some pictures from your local system.</li>
 </ul>
 
 <img src="Images/imagefolder.PNG" alt="Templates" width="600"  />
 
 <ul>
-<li><b>index.html</b> code<li>
+<li><b>index.html</b> code</li>
 </ul>
 
 ```html
@@ -98,7 +98,7 @@ def index(request):
     return render(request,'firstapp/index.html',{})
 ```
 <ul>
-<li>Run the server by using <b>python manage.py runserver</b> command.</li>
+<li>Run the server by using <b>python manage.py runserver</b> command,then output look like this.</li>
 </ul>
 
 <img src="Images/imageoutput.PNG" alt="Templates" width="600"  />
@@ -106,7 +106,7 @@ def index(request):
 ### Django Loading JavaScript
 
 <ul>
-<li>we have to create Folder or directory inside static Folder i.e is <b>js</b>,in that <b>js</b> folder create a file and name it as <b>mystyle.js</b>
+<li>we have to create Folder or directory inside static Folder i.e <b>js</b>,in that <b>js</b> folder create a file and name it as <b>mystyle.js</b></li>
 </ul>
 
 <img src="Images/mystyle.PNG" alt="mystyle" width="600"  />
@@ -136,7 +136,27 @@ alert("now your are using java script alert")
 </html> 
 ```
 <ul>
-<li>Run the server by using <b>python manage.py runserver</b> command.Then,output look like this</li>
+<li>Run the server by using <b>python manage.py runserver</b> command.Then,output look like this.</li>
 </ul>
 
 <img src="Images/jsoutput.PNG" alt="Templates" width="600" />
+
+### Django Loading CSS Example
+
+<ul>
+<li>we have to create Folder or directory inside static Folder i.e <b>css</b>,in that <b>js</b> folder create a file and name it as <b>mystyle.css</b></li>
+</ul>
+
+<img src="Images/cssimage.PNG" alt="cssimage" width="600" />
+
+<ul>
+<li><b>mystyle.css</b> code</li>
+</ul>
+
+```css
+h2{  
+color:pink;  
+} 
+```
+
+
