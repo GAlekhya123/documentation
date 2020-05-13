@@ -36,17 +36,40 @@
 
 <p>Tempalte <b>index.html</b> contains the code.</p>
 
-<img src="Images/tempatecode.PNG" alt="Templates" width="600" />
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Project</title>
+</head>
+<body>
+	<h2>Welcome to my project.!!!</h2>
+</body>
+</html>
+```
 
 <p>To Load or render our template need a view and url mapped to that view.Let's begin creating urls.py and views.py.</p>
 
 <p>Mapping <b>index.html</b> to <b>urls.py</b><p> 
 
-<img src="Images/urlimage.PNG" alt="Templates" width="600" />
+```python
+from django.contrib import admin
+from django.urls import path
+from firstapp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('index/',views.index,name='index'),
+]
+```
 
 <p> From <b>urls.py</b> mapping to <b>views.py</b>.</p>
 
-<img src="Images/viewsimage.PNG" alt="Templates" width="600" />
+```python
+from django.shortcuts import render
+def index(request):
+	return render(request,'firstapp/index.html',{})
+```
 
 <p>After mapping all these files we have to run the server,To run server we have to open our project directory and open command promt in that we have to use the command i.e <b>python manage.py runserver.</b></p>
 
