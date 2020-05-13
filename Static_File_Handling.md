@@ -182,4 +182,6 @@ color:pink;
 <li>Run the server by using <b>python manage.py runserver</b> command.Then,output look like this.</li>
 </ul>
 
-<img src="Images/jsoutput.PNG" alt="Templates" width="600" />
+<img src="Images/cssoutput.PNG" alt="Templates" width="600" />
+
+<p>In this topic, we have learned the process of managing static files efficiently.</p>
