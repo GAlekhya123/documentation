@@ -30,7 +30,7 @@
 
 <p>Next create a template <b>index.html</b> inside <b>Tempaltes</b> Folder.</p>
 
-<img src="Images/creating_template.PNG" alt="Templates" width="600" />
+<img src="Images/creating_template(1).PNG" alt="Templates" width="600" />
 
 <p>After creating a template we have to write a code in index.html.</p>
 
