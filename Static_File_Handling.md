@@ -24,9 +24,9 @@
 </ul>
 
 ## Django Static (CSS, JavaScript, images) Configuration
-
+<ul>
 <li>Include the <b>django.contrib.staticfiles</b> in <b>INSTALLED_APPS</b>.</li>
-
+</ul>
 <img src="Images/Installedapps.PNG" alt="Templates" width="600"  />
 
 
