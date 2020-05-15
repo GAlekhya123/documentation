@@ -147,9 +147,11 @@ alert("now your are using java script alert")
 <li>Run the server by using <b>python manage.py runserver</b> command.Then,output look like this.</li>
 </ul>
 
-> **_NOTE:_** It is not necessary to run the server everytime,because the server is running in background.untill unless you stop the server. 
 
 <img src="Images/jsoutput.PNG" alt="Templates" width="600" />
+
+
+> **_NOTE:_** It is not necessary to run the server everytime,because the server is running in background.untill unless you stop the server. 
 
 ### Django Loading CSS Example
 
