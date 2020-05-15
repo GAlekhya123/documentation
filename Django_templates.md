@@ -22,6 +22,8 @@
 
 <img src="Images/Installedapps.PNG" alt="Templates" width="600"  />
 
+> **_NOTE:_** Don't forget to mention app name in INSTALLED_APPS list of settings.py file, if you created a new app.
+
 ### Django Templates Creation Procedure
 
 <p> First create a Folder <b>Templates</b> inside the project app i.e firstapp.</p> 
