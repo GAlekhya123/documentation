@@ -73,7 +73,7 @@ def index(request):
 	return render(request,'firstapp/index.html',{})
 ```
 
-<p>After mapping all these files we have to run the server,To run server we have to open our project directory and open command promt in that we have to use the command i.e <b>python manage.py runserver.</b></p>
+<p>After mapping all these files we have to run the server,To run server we have to open our project directory and open command prompt in project location and  we have to use the command i.e <b>python manage.py runserver</b> to run the server.</p>
 
 <p>The output will appears like this</p>
 
